@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>创建表格</title>
+</head>
+<body>
+<form>
+    <input type="button"value="确定">
+    <button>取消</button>
+     -500 <input type="range"max="500"min="-500">500   <!--range是滑动字样-->
+     -500 <input type="range"max="500"min="-500" step="100">500
+    -500 <input type="range"max="500"min="-500" step="100" value="-500">500
+    <br><br>
+    <input type="radio">记住我
+    <input type="checkbox">
+    <br><br>
+    下列那一个人帅气
+    <br>
+    <input type="radio" name="a" checked>田茂旭   <!--radio类似与选择题，选中后不可以改-->
+    <input type="radio" name="a">田茂旭
+    <input type="radio" name="a">田茂旭
+
+<br><br>
+    你的性别是？
+    <select>              <!--select像易班打卡的字样选择-->
+        <option> 男</option>>
+        <option> 女</option>>
+        <option> 未知</option>>
+    </select>
+    <br>
+    你的性取向是
+    <input type="text" list="test">
+    <datalist id="test">   <!datelist需要搭配文本框型，而且可以自己写-->
+        <option> 男</option>>
+        <option> 女</option>>
+        <option> 未知</option>>
+    </datalist>
+
+    <br>
+    是否复活？<input type="checkbox">      <!--checkbox可以取消，它是Bool型-->
+
+
+
+</form>
+
+</body>
+</html>
